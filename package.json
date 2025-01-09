@@ -12,8 +12,17 @@
     "test": "jest"
   },
   "author": "Prashant Sakre",
-  "license": "ISC",
-  "description": "",
+  "repository": {
+    "url": "https://github.com/PrashantSakre/text-handler",
+    "type": "git"
+  },
+  "license": "MIT",
+  "description": "A simple, flexible, event-driven text modifier.",
+  "keywords": [
+    "text",
+    "modifier",
+    "appender"
+  ],
   "devDependencies": {
     "@types/jest": "^29.5.14",
     "jest": "^29.7.0",

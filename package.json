@@ -1,6 +1,6 @@
 {
   "name": "text-handler",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
@@ -15,6 +15,9 @@
   "repository": {
     "url": "https://github.com/PrashantSakre/text-handler",
     "type": "git"
+  },
+  "bugs": {
+    "url": "https://github.com/PrashantSakre/text-handler/issues"
   },
   "license": "MIT",
   "description": "A simple, flexible, event-driven text modifier.",

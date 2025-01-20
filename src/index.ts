@@ -55,13 +55,3 @@ export class textHandler {
     return res;
   }
 }
-
-const textEmit = new textHandler();
-const { unsubscribe } = textEmit.subscribeToEvent("eventName", {
-  placement: "start",
-  appendText: "Hello ",
-  regex: /^abc-\d{4}$/,
-});
-
-// Trigger the event
-console.log(textEmit.triggerEvent("eventName", "World"));

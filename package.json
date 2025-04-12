@@ -1,6 +1,6 @@
 {
-  "name": "text-handler",
-  "version": "0.0.3",
+  "name": "text-modifier",
+  "version": "0.0.4",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
@@ -13,11 +13,11 @@
   },
   "author": "Prashant Sakre",
   "repository": {
-    "url": "https://github.com/PrashantSakre/text-handler",
+    "url": "https://github.com/PrashantSakre/text-modifier",
     "type": "git"
   },
   "bugs": {
-    "url": "https://github.com/PrashantSakre/text-handler/issues"
+    "url": "https://github.com/PrashantSakre/text-modifier/issues"
   },
   "license": "MIT",
   "description": "A simple, flexible, event-driven text modifier.",

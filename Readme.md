@@ -21,7 +21,7 @@ yarn add text-modifier
 ```
 jsDeliver:
 ```html
-<script src="https://cdn.jsdelivr.net/npm/text-handler@latest/dist/index.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/text-modifier@latest/dist/index.min.js"></script>
 ```
 ## Usage
 ### 1. Importing the package
@@ -155,4 +155,4 @@ unsubscribe();
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](https://github.com/PrashantSakre/text-handler/blob/main/LICENSE "License") file for details.
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/PrashantSakre/text-modifier/blob/main/LICENSE "License") file for details.

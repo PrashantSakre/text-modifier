@@ -4,7 +4,7 @@ export type EventOptions = {
   regex: RegExp;
 };
 
-export class textHandler {
+export class textModifier {
   private eventMap: Record<string, Map<string, EventOptions>> = {};
   private defaultOptions: EventOptions = {
     placement: "end",

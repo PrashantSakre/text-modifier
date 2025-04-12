@@ -1,15 +1,15 @@
-import { textHandler } from "../src";
+import { textModifier } from "../src";
 
-describe("textHandler", () => {
-  let textEmit: textHandler;
+describe("textModifier", () => {
+  let textEmit: textModifier;
 
   beforeEach(() => {
-    textEmit = new textHandler();
+    textEmit = new textModifier();
   });
 
   test("should subscribe and unsubscribe an event", () => {
     const eventName = "textChange";
-    const handler = jest.fn();
+    const modifier = jest.fn();
 
     // Subscribe to an event
     const { unsubscribe } = textEmit.subscribeToEvent(eventName, {
@@ -21,8 +21,8 @@ describe("textHandler", () => {
     // Trigger the event
     textEmit.triggerEvent(eventName, "World");
 
-    // Validate that the handler was called
-    expect(handler).not.toHaveBeenCalled(); // We aren't using `handler`, we should be testing the result of `run`.
+    // Validate that the modifier was called
+    expect(modifier).not.toHaveBeenCalled(); // We aren't using `modifier`, we should be testing the result of `run`.
 
     // Validate result directly
     const result = textEmit.triggerEvent(eventName, "World")[0];
@@ -34,7 +34,7 @@ describe("textHandler", () => {
     // Trigger the event again after unsubscribe
     const resultAfterUnsub = textEmit.triggerEvent(eventName, "World")[0];
 
-    // Ensure the handler is not called after unsubscribe
+    // Ensure the modifier is not called after unsubscribe
     expect(resultAfterUnsub).toBeUndefined();
   });
 
